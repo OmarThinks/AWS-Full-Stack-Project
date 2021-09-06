@@ -20,10 +20,10 @@ https://aws.amazon.com/getting-started/learning-path-full-stack-developer/
 2. Postman
 3. AWS
 	1. Amazon API Gateway
-	2. Amazon DynamoDB
-	3. AWS Lambda
-	4. IAM
-	5. AWS Amplify
+	2. Amazon DynamoDB (NoSQL DB)
+	3. AWS Lambda (Serverless)
+	4. IAM (Identity)
+	5. AWS Amplify (Frontend)
 
 
 
@@ -116,6 +116,11 @@ This is a very basic lambda function.
 ## C-3) Amazon API Gateway:
 
 
+<img src="images/gateway.gif">
+
+
+
+
 - https://67nbvuy3t1.execute-api.us-east-2.amazonaws.com/dev  
 	- Method: POST
 	- Reuest Body: JSON
@@ -146,6 +151,8 @@ Output:
     "body": "\"Hello from Lambda, Omar Magdy\""
 }
 ```
+
+
 
 
 
