@@ -195,6 +195,7 @@ This is the permissions JSON.
 }
 ```
 
+<img src="images/iam.gif">
 
 And this is the New python code:
 
