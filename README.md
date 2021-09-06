@@ -78,7 +78,9 @@ I will turn every thing off so that I do not get out of AWS Free Tier.**
 https://dev9463.d1pi9xfkfb20dm.amplifyapp.com/  
 
 This is the link of the Frontend Application.  
-It is just a Hello World Page.
+It is a for to input firstname and lastname.
+
+<img src="images/amplify.gif">
 
 
 
