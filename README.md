@@ -13,6 +13,50 @@ https://aws.amazon.com/getting-started/learning-path-full-stack-developer/
 
 
 
+# B) Technologies Used:
+
+
+1. Python
+2. Postman
+3. AWS
+	1. Amazon API Gateway
+	2. Amazon DynamoDB
+	3. AWS Lambda
+	4. IAM
+	5. AWS Amplify
+
+
+
+# C) Table Of Links:
+
+
+<table>
+	<tr>
+		<th></th>
+		<th>Link</th>
+	</tr>
+	<tr>
+		<td>Amplify Frontend</td>
+		<td>
+			<a href="https://dev9463.d1pi9xfkfb20dm.amplifyapp.com">
+				https://dev9463.d1pi9xfkfb20dm.amplifyapp.com
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<td>AWS Api Gateway</td>
+		<td>
+			<a href="https://67nbvuy3t1.execute-api.us-east-2.amazonaws.com/dev/">
+				https://67nbvuy3t1.execute-api.us-east-2.amazonaws.com/dev/
+			</a>
+		</td>
+	</tr>
+
+</table>
+
+
+
+
 
 
 # B) Architicture:
