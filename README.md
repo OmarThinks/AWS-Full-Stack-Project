@@ -1,7 +1,7 @@
 # AWS-Full-Stack-Project
 Following the AWS Fullstack Guide
 
-
+Releases: https://github.com/OmarThinks/AWS-Full-Stack-Project/tags
 
 
 # A) Reference:
