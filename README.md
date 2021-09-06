@@ -44,28 +44,36 @@ https://aws.amazon.com/getting-started/learning-path-full-stack-developer/
 		</td>
 	</tr>
 	<tr>
-		<td>AWS Api Gateway</td>
+		<td>AWS API Gateway</td>
 		<td>
 			<a href="https://67nbvuy3t1.execute-api.us-east-2.amazonaws.com/dev/">
 				https://67nbvuy3t1.execute-api.us-east-2.amazonaws.com/dev/
 			</a>
 		</td>
 	</tr>
-
 </table>
 
+## Note:
+
+**These links will not be working when I am done with the application.  
+I will turn every thing off so that I do not get out of AWS Free Tier.**
+
+
+
+
+# C) Architicture:
+
+
+
+
+<img src="images/arch.gif">
 
 
 
 
 
-# B) Architicture:
 
-
-Note, These links will not be working when I am done with the application.  
-I will turn every thing off so that I do not get out of AWS Free Tier.
-
-## B-1) AWS Amplify:
+## C-1) AWS Amplify:
 
 https://dev9463.d1pi9xfkfb20dm.amplifyapp.com/  
 
@@ -76,7 +84,7 @@ It is just a Hello World Page.
 
 
 
-## B-2) AWS-Labda Function:
+## C-2) AWS-Labda Function:
 
 
 This is a very basic lambda function.  
@@ -105,7 +113,7 @@ This is a very basic lambda function.
 
 
 
-## B-3) Amazon API Gateway:
+## C-3) Amazon API Gateway:
 
 
 - https://67nbvuy3t1.execute-api.us-east-2.amazonaws.com/dev  
@@ -152,7 +160,7 @@ Output:
 
 
 
-## B-4) DynamoDB and IAM:
+## C-4) DynamoDB and IAM:
 
 
 I have made the permissions that anyone can access and delete 
