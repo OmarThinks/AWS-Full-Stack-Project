@@ -32,6 +32,33 @@ It is just a Hello World Page.
 
 
 
+## B-2) AWS-Labda Function:
+
+
+This is a very basic lambda function.  
+- Inputs (JSON):
+	- firstName (String)
+	- lastName (String)
+- Output:
+	- "Hello from Lambda, " + firstname + lastName
+- Example:
+	- Input:
+```json
+{
+  "firstName": "Omar",
+  "lastName": "Magdy"
+}
+```
+	- Output:
+```json
+{
+  "statusCode": 200,
+  "body": "\"Hello from Lambda, Omar Magdy\""
+}
+```
+
+
+
 
 
 
