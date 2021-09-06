@@ -61,6 +61,42 @@ This is a very basic lambda function.
 
 
 
+## B-3) Amazon API Gateway:
+
+
+- https://67nbvuy3t1.execute-api.us-east-2.amazonaws.com/dev  
+	- Method: POST
+	- Reuest Body: JSON
+	- Inputs:
+		- firstName (String)
+		- lastName (String)
+
+Example:  
+
+Input:
+
+```bash
+curl --location --request POST 'https://67nbvuy3t1.execute-api.us-east-2.amazonaws.com/dev' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "firstName":"Omar",
+    "lastName":"Magdy"
+}'
+```
+I have also used a Postman collection to test the request.  
+
+Output:
+
+
+```bash
+{
+    "statusCode": 200,
+    "body": "\"Hello from Lambda, Omar Magdy\""
+}
+```
+
+
+
 
 
 
