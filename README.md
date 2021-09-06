@@ -222,6 +222,10 @@ def lambda_handler(event, context):
     }
 ```
 
+
+<img src="images/lambda.gif">
+
+
 There is a unique ID to each record.
 
 
