@@ -1,0 +1,16 @@
+Test Event Name
+HelloWorldTestEvent
+
+Response
+{
+  "statusCode": 200,
+  "body": "\"Hello from Lambda, Omar Magdy\""
+}
+
+Function Logs
+START RequestId: ... Version: $LATEST
+END RequestId: ...
+REPORT RequestId: ...	Duration: 0.94 ms	Billed Duration: 1 ms	Memory Size: 128 MB	Max Memory Used: 51 MB	Init Duration: 128.59 ms
+
+Request ID
+...
