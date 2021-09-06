@@ -132,7 +132,7 @@ This is the permissions JSON.
 ```
 
 
-ANd this is the New python code:
+And this is the New python code:
 
 
 ```python
