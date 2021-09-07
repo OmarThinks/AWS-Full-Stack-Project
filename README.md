@@ -1,33 +1,23 @@
 # AWS-Full-Stack-Project
-Following the AWS Fullstack Guide
 
 Releases: https://github.com/OmarThinks/AWS-Full-Stack-Project/tags
 
 
-# A) Reference:
-
-The reference is the Full Stack application guide for AWS Documentation.
-
-https://aws.amazon.com/getting-started/learning-path-full-stack-developer/
 
 
 
 
-# B) Technologies Used:
 
 
-1. Python
-2. Postman
-3. AWS
-	1. Amazon API Gateway
-	2. Amazon DynamoDB (NoSQL DB)
-	3. AWS Lambda (Serverless)
-	4. IAM (Identity)
-	5. AWS Amplify (Frontend)
+# A) Table of Deployments Links:
 
 
+## Note:
 
-# C) Table Of Links:
+**I will shut these links down when I am done with the application.  
+I will turn every thing off so that I do not get out of AWS Free Tier.  
+Keeping these links alive might get me out of AWS Free Tier.**
+
 
 
 <table>
@@ -36,7 +26,7 @@ https://aws.amazon.com/getting-started/learning-path-full-stack-developer/
 		<th>Link</th>
 	</tr>
 	<tr>
-		<td>Amplify Frontend</td>
+		<th>Amplify Frontend (With React)</th>
 		<td>
 			<a href="https://dev9463.d1pi9xfkfb20dm.amplifyapp.com">
 				https://dev9463.d1pi9xfkfb20dm.amplifyapp.com
@@ -44,7 +34,7 @@ https://aws.amazon.com/getting-started/learning-path-full-stack-developer/
 		</td>
 	</tr>
 	<tr>
-		<td>AWS API Gateway</td>
+		<th>AWS API Gateway</th>
 		<td>
 			<a href="https://67nbvuy3t1.execute-api.us-east-2.amazonaws.com/dev/">
 				https://67nbvuy3t1.execute-api.us-east-2.amazonaws.com/dev/
@@ -53,10 +43,36 @@ https://aws.amazon.com/getting-started/learning-path-full-stack-developer/
 	</tr>
 </table>
 
-## Note:
 
-**These links will not be working when I am done with the application.  
-I will turn every thing off so that I do not get out of AWS Free Tier.**
+
+
+
+
+
+
+
+
+
+# B) Technologies Used:
+
+
+<b>
+
+1. AWS
+	1. Amazon API Gateway
+	2. Amazon DynamoDB (NoSQL DB)
+	3. AWS Lambda (Serverless)
+	4. IAM (Identity)
+	5. AWS Amplify (Frontend) (With React Application)
+2. JavaScript
+	1. NodeJS
+		1. React
+3. Python
+4. Postman
+
+</b>
+
+
 
 
 
@@ -73,12 +89,12 @@ I will turn every thing off so that I do not get out of AWS Free Tier.**
 
 
 
-## C-1) AWS Amplify:
+## C-1) AWS Amplify (With React):
 
-https://dev9463.d1pi9xfkfb20dm.amplifyapp.com/  
+**https://dev9463.d1pi9xfkfb20dm.amplifyapp.com/**  
 
-This is the link of the Frontend Application.  
-It is a for to input firstname and lastname.
+This is the link of the Frontend Application with **React**.  
+You can input first name and last name.
 
 <img src="images/amplify.gif">
 
@@ -234,6 +250,40 @@ There is a unique ID to each record.
 
 
 <img src="images/dynamo.gif">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# A) Reference:
+
+I used these guides to help me develop an aoolication by myself.
+1. https://aws.amazon.com/getting-started/learning-path-full-stack-developer/
+2. https://aws.amazon.com/getting-started/hands-on/build-react-app-amplify-graphql/
+
+
+
+
 
 
 
