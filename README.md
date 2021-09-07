@@ -102,7 +102,7 @@ You can input first name and last name.
 
 
 
-## C-2) AWS-Labda Function:
+## C-2) AWS-Lambda Function:
 
 
 This is a very basic lambda function.  
