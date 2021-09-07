@@ -5,7 +5,6 @@ import './App.css';
 import React, { Component } from 'react';
 
 
-
 var callAPI = (firstName,lastName)=>{
   // instantiate a headers object
   var myHeaders = new Headers();
@@ -29,18 +28,6 @@ var callAPI = (firstName,lastName)=>{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 class App extends React.Component {
   render() { 
     return (
@@ -50,7 +37,9 @@ class App extends React.Component {
             <input type="text" id="fName"/>
             <label>Last Name :</label>
             <input type="text" id="lName"/>
-            <button type="button" onclick="{callAPI(document.getElementById('fName').value,document.getElementById('lName').value)}">Call API</button>
+            <button type="button" 
+            onClick={()=>{callAPI(document.getElementById('fName').value,document.getElementById('lName').value)}}
+            >Call API</button>
         </form>
       </div>
     );
