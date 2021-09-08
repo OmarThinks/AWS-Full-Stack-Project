@@ -3,7 +3,7 @@ from django.core.validators import (MaxValueValidator, MinValueValidator)
 
 
 
-#id,name,price,in_stock,author
+#id,name,price,in_stock
 class Product(models.Model):
 	name = models.CharField(max_length=150)
 	price = models.FloatField(
