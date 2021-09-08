@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from rest_framework import (routers, viewsets)
+from rest_framework import (viewsets)
 from .serializers import ProductSerializer
 
 
