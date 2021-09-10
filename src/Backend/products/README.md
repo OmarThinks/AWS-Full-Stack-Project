@@ -8,8 +8,15 @@
 
 # How to run:
 
+<b>
 
-
+```bash
+pip install -r requirements.txt
+python manage.py makemigrations
+python manage.py migrate products
+python manage.py runserver
+```
+</b>
 
 
 
