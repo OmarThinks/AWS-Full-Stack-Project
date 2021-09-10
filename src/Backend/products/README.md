@@ -86,6 +86,15 @@ Displays a paginated list of products, each page contains 5 results.
 <img src="images/products.gif">
 
 
+## 2-2) (POST) http://127.0.0.1:8000/api/products/
+Create new products
 
+## 2-3) (GET) http://127.0.0.1:8000/api/products/<id>
+GEt details of a product
 
+## 2-4) (PUT) http://127.0.0.1:8000/api/products/<id>
+Modify a product
+
+## 2-5) (DELETE) http://127.0.0.1:8000/api/products/<id>
+Delete a product
 
