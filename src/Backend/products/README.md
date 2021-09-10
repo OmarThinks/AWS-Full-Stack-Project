@@ -6,6 +6,15 @@
 2. Django REST Framework
 
 
+# How to run:
+
+
+
+
+
+
+
+
 # Models:
 There is only one model, the Product Model.
 <table>
