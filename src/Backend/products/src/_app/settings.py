@@ -84,6 +84,10 @@ default_db_name = os.environ.get(
     'DEFAULT_DB_NAME', BASE_DIR / 'db.sqlite3')
 
 
+print("This is it", flush=True)
+print(default_db_name, flush=True)
+
+print("This was it", flush=True)
 
 
 DATABASES = {

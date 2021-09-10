@@ -8,6 +8,23 @@
 
 # How to run:
 
+
+Creating Database environemnt Variables:
+
+<b>
+
+```bash
+export DEFAULT_DB_ENGINE="django.db.backends.sqlite3"
+export DEFAULT_DB_NAME=$PWD/"db.sqlite3"
+```
+
+<b>
+
+These were the default values for database env variables.  
+And this is how you can run the code.
+
+
+
 <b>
 
 ```bash
