@@ -73,6 +73,8 @@ Returns the api Resources
 ```
 
 
+<img src="images/api.gif">
+
 
 
 
