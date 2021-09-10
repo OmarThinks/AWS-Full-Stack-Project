@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure--=)7m2xq3b&gn-=esjp0@ehkb4_$q9l!n97g!e%d4@od7j3y*3
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["django-env.eba-g6yuj46i.us-west-2.elasticbeanstalk.com"]
 
 
 # Application definition
@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    "products",
+    #"products",
 ]
 
 MIDDLEWARE = [

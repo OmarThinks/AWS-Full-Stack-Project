@@ -1,1 +1,6 @@
 real_environment_variables.txt
+rootkey.csv.txt
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
