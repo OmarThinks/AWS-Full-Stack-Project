@@ -76,17 +76,12 @@ WSGI_APPLICATION = '_app.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-try:
-    print(os.environ['DEFAULT_DB_ENGINE'], flush=True)
-    print(os.environ['DEFAULT_DB_NAME'], flush=True)
-    default_db_engine = os.environ['DEFAULT_DB_ENGINE']
-    default_db_name = os.environ['DEFAULT_DB_NAME']
-except Exception as e:
-    default_db_engine = 'django.db.backends.sqlite3'
-    default_db_name = BASE_DIR / 'db.sqlite3'    
 
 
-
+default_db_engine = os.environ.get(
+    'DEFAULT_DB_ENGINE', 'django.db.backends.sqlite3')
+default_db_name = os.environ.get(
+    'DEFAULT_DB_NAME', BASE_DIR / 'db.sqlite3')
 
 
 
