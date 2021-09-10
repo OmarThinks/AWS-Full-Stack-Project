@@ -92,14 +92,11 @@ default_db_port = os.environ.get(
     'DEFAULT_DB_PORT', BASE_DIR / '')
 
 
-print("This is it", flush=True)
-print(default_db_name, flush=True)
-
-print("This was it", flush=True)
 
 
-DATABASES = {
-    'default': {
+
+
+database_dict={
         'ENGINE': default_db_engine,
         'NAME': default_db_name,
         'USER': default_db_user,
@@ -107,6 +104,15 @@ DATABASES = {
         'HOST': default_db_host,   # Or an IP Address that your DB is hosted on
         'PORT': default_db_port,
     }
+
+print("This is it", flush=True)
+print(database_dict, flush=True)
+
+print("This was it", flush=True)
+
+
+DATABASES = {
+    'default': database_dict
 }
 
 
