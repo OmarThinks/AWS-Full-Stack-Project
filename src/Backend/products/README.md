@@ -90,7 +90,11 @@ Displays a paginated list of products, each page contains 5 results.
 Create new products
 
 ## 2-3) (GET) http://127.0.0.1:8000/api/products/<id>
-GEt details of a product
+Get details of a product
+
+
+<img src="images/product_id.gif">
+
 
 ## 2-4) (PUT) http://127.0.0.1:8000/api/products/<id>
 Modify a product
