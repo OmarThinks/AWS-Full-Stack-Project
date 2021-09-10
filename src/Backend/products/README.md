@@ -72,8 +72,19 @@ Returns the api Resources
 }
 ```
 
-
 <img src="images/api.gif">
+
+
+
+## 2) Product Endpoints:
+
+
+## 2-1) (GET) http://127.0.0.1:8000/api/products/
+
+Displays a paginated list of products, each page contains 5 results.
+
+<img src="images/products.gif">
+
 
 
 
