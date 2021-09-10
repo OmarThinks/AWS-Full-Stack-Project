@@ -94,6 +94,10 @@ DATABASES = {
     'default': {
         'ENGINE': default_db_engine,
         'NAME': default_db_name,
+        'USER': '',
+        'PASSWORD': '',
+        'HOST': '',   # Or an IP Address that your DB is hosted on
+        'PORT': '',
     }
 }
 

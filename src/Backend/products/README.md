@@ -9,7 +9,7 @@
 # How to run:
 
 
-Creating Database environemnt Variables:
+Creating Database environment Variables:
 
 <b>
 
