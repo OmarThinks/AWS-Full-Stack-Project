@@ -63,8 +63,14 @@ There is only one model, the Product Model.
 
 # Endpoints:
 
+## 1) http://127.0.0.1:8000/api/
+Returns the api Resources
 
-
+```json
+{
+    "products": "http://127.0.0.1:8000/api/products/"
+}
+```
 
 
 
