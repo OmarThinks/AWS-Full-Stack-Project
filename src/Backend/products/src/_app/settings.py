@@ -82,6 +82,14 @@ default_db_engine = os.environ.get(
     'DEFAULT_DB_ENGINE', 'django.db.backends.sqlite3')
 default_db_name = os.environ.get(
     'DEFAULT_DB_NAME', BASE_DIR / 'db.sqlite3')
+default_db_user = os.environ.get(
+    'DEFAULT_DB_USER', BASE_DIR / '')
+default_db_password = os.environ.get(
+    'DEFAULT_DB_PASSWORD', BASE_DIR / '')
+default_db_host = os.environ.get(
+    'DEFAULT_DB_HOST', BASE_DIR / '')
+default_db_port = os.environ.get(
+    'DEFAULT_DB_PORT', BASE_DIR / '')
 
 
 print("This is it", flush=True)
@@ -94,10 +102,10 @@ DATABASES = {
     'default': {
         'ENGINE': default_db_engine,
         'NAME': default_db_name,
-        'USER': '',
-        'PASSWORD': '',
-        'HOST': '',   # Or an IP Address that your DB is hosted on
-        'PORT': '',
+        'USER': default_db_user,
+        'PASSWORD': default_db_password,
+        'HOST': default_db_host,   # Or an IP Address that your DB is hosted on
+        'PORT': default_db_port,
     }
 }
 
