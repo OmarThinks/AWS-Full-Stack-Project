@@ -1,0 +1,2 @@
+export DEFAULT_DB_ENGINE="django.db.backends.sqlite3"
+export DEFAULT_DB_NAME=$PWD/"db.sqlite3"
