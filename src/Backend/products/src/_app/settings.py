@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure--=)7m2xq3b&gn-=esjp0@ehkb4_$q9l!n97g!e%d4@od7j3y*3
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["127.0.0.1","eba-g6yuj46i.us-west-2.elasticbeanstalk.com"]
+ALLOWED_HOSTS = ["products-app-env.eba-r2kpmfiy.us-west-2.elasticbeanstalk.com"]
 
 
 # Application definition
@@ -75,7 +75,7 @@ WSGI_APPLICATION = '_app.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
-
+"""
 
 
 default_db_engine = os.environ.get(
@@ -104,16 +104,24 @@ database_dict={
         'HOST': default_db_host,   # Or an IP Address that your DB is hosted on
         'PORT': default_db_port,
     }
-
+"""
 """
 print("This is it", flush=True)
 print(database_dict, flush=True)
 print("This was it", flush=True)
 """
-
+"""
 
 DATABASES = {
     'default': database_dict
+}
+"""
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    }
 }
 
 
@@ -162,8 +170,9 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 
-
+"""
 REST_FRAMEWORK = {
     'DEFAULT_PAGINATION_CLASS': '_app.config.StandardResultsSetPagination',
     'PAGE_SIZE': 3
 }
+"""
