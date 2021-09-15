@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure--=)7m2xq3b&gn-=esjp0@ehkb4_$q9l!n97g!e%d4@od7j3y*3
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["django-env.eba-g6yuj46i.us-west-2.elasticbeanstalk.com"]
+ALLOWED_HOSTS = ["127.0.0.1","eba-g6yuj46i.us-west-2.elasticbeanstalk.com"]
 
 
 # Application definition
@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'rest_framework',
+    #'rest_framework',
     #"products",
 ]
 
@@ -105,10 +105,11 @@ database_dict={
         'PORT': default_db_port,
     }
 
+"""
 print("This is it", flush=True)
 print(database_dict, flush=True)
-
 print("This was it", flush=True)
+"""
 
 
 DATABASES = {
