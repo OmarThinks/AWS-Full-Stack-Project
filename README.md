@@ -34,7 +34,7 @@ Keeping these links alive might get me out of AWS Free Tier.**
 		</td>
 	</tr>
 	<tr>
-		<th>AWS API Gateway</th>
+		<th>AWS API Gateway (Backend)</th>
 		<td>
 			<a href="https://67nbvuy3t1.execute-api.us-east-2.amazonaws.com/dev/">
 				https://67nbvuy3t1.execute-api.us-east-2.amazonaws.com/dev/
