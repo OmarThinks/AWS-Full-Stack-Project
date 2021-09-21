@@ -4,7 +4,7 @@ Releases: https://github.com/OmarThinks/AWS-Full-Stack-Project/tags
 
 
 
-****
+
 
 
 
@@ -14,10 +14,9 @@ Releases: https://github.com/OmarThinks/AWS-Full-Stack-Project/tags
 
 ## Note:
 
-**These links are not working now.  
-I have shut these links down.  
-Because I do not got out of AWS Free Tier.  
-Keeping these links alive got me out of AWS Free Tier.**
+**I will shut these links down when I am done with the application.  
+I will turn every thing off so that I do not get out of AWS Free Tier.  
+Keeping these links alive might get me out of AWS Free Tier.**
 
 
 
@@ -25,7 +24,6 @@ Keeping these links alive got me out of AWS Free Tier.**
 	<tr>
 		<th></th>
 		<th>Link</th>
-		<th>Status</th>
 	</tr>
 	<tr>
 		<th>Amplify Frontend (With React)</th>
@@ -34,9 +32,6 @@ Keeping these links alive got me out of AWS Free Tier.**
 				https://dev9463.d1pi9xfkfb20dm.amplifyapp.com
 			</a>
 		</td>
-		<td>
-			Not Active
-		</td>
 	</tr>
 	<tr>
 		<th>AWS API Gateway (Backend)</th>
@@ -44,9 +39,6 @@ Keeping these links alive got me out of AWS Free Tier.**
 			<a href="https://67nbvuy3t1.execute-api.us-east-2.amazonaws.com/dev/">
 				https://67nbvuy3t1.execute-api.us-east-2.amazonaws.com/dev/
 			</a>
-		</td>
-		<td>
-			Not Active
 		</td>
 	</tr>
 </table>
